@@ -1,0 +1,1751 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/mahunter/Planetary_Geoscience_SKOS#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/mahunter/Planetary_Geoscience_SKOS#">
+    <Prefix name="" IRI="http://www.semanticweb.org/mahunter/Planetary_Geoscience_SKOS#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="skos" IRI="http://www.w3.org/2004/02/skos/core#"/>
+    <Declaration>
+        <Class IRI="Albedo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Albedo_Feature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Amalthea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Amazonian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Amazonian_Hesperian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Amazonian_Noachian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Arcus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Area_of_Slip_Surface_of_Landslide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Ariel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Asteroids"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Astrum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Basin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Callisto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Catalog"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Catena"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Cave"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Cave_entrance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Cavus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Ceres"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Chain_craters_or_collapsed_lava_tube"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Chaos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Charon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Chasma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Coastal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Collapse_Structure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Collis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Compiled_Map"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Corona"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Crater"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Dactyl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Dark-colored_ejecta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Degraded_impact_crater_rim"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Deimos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Dike_of_Variable_Thickness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Dione"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Document"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Dorsum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Dune_crest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Dwarf_Planets"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Early_Amazonian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Early_Hesperian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Early_Noachian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Earth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Edge_or_dry_lakebed_within_closed_depression_of_eolian_origin_in_bedrock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Enceladus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Eolian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Epimetheus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Eros"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Eruptive_Center"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Europa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Extrusive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Facula"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Farrum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Fault_-_Breccia_Zone_or_Zone_of_Broken_Rock_Around_Fault"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Fault_-_Breccia_Zone_or_Zone_of_Broken_Rock_Within_Fault"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Flexus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Fluctus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Flumen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Fluvial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Fluvial_terrace_scarp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Fossa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Fretum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="GIS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Ganymede"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Gaspra"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Geodetic_Control_Network"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Geologic_Process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Geologic_Properties"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Geologic_Spatial_Accuracy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Geologic_Zones"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Geomorphology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Geospatial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Glacial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Glacial_limit_or_terminus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Hesperian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Hesperian_Noachian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Hyperion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Iapetus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Ida"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Igneous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Image"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Image_Mosaic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Impact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Indefinite_or_unsurveyed_shoreline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Insula"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Intrusive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Io"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Itokawa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Janus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Jupiter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Jupiter_Rings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Karst"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Labes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Labyrinthus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Lacuna"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Lacus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Landing_Site"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Landslide_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Large_Ringed_Feature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Late_Amazonian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Late_Hesperian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Late_Noachian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Linea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Lingula"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Lutetia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Macula"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Mare"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Mars"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Mars_Time"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Mass_Movement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Mathilde"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Mensa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Mercury"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Metamorphic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Middle_Amazonian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Middle_Noachian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Mimas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Miranda"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Mons"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Neptune"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Neptune_Rings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Noachian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Oberon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Oceanus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Orthoimagery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Palus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Patera"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Periglacial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Phobos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Phoebe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Planetary_Body"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Planetary_Geologic_Time"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Planetary_Geology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Planetary_Geoscience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Planetary_Geoscience_Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Planetary_Place_Name"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Planitia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Planum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Plume"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Pluto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Present"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Promontorium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Proteus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Puck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Quadrangle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Raised_rim_of_larger_impact_crater"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Raised_rim_of_smaller_impact_crater"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Regio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Reticulum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Retreatal_position_of_stagnant_ice_margin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Rhea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Rima"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Rupes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Ryugu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Satellite_Feature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Saturn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Saturn_Rings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Saxum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Scopulus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Sedimentary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Serpens"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Shoal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Sinus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Steins"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Structure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Sulcus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Tabular"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Tectonic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Terra"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Tessera"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Tethys"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Texture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="The_Moon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Thebe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Tholus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Titan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Titania"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Topographic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Topography"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Triton"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Umbriel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Unda"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Uninterpreted"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Uranus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Uranus_Rings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Vallis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Vastitas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Venus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Vesta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Virga"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Zone_of_Sheared_Rock_Within_Fault"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Contact_-_ID_Certain,_Location_Accurate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Contact_-_ID_Certain,_Location_Approximate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Contact_-_ID_Certain,_Location_Concealed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Contact_-_ID_Certain,_Location_Inferred"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Contact_-_ID_Queried,_Location_Accurate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Contact_-_ID_Queried,_Location_Approximate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Contact_-_ID_Queried,_Location_Concealed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Contact_-_ID_Queried,_Location_Inferred"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Debris_-_Slide_Slope_(Multiple)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Large,_steep-sided_shield,_dome,_or_volcanic_construct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Large_shield,_dome,_or_volcanic_construct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Narrow_channel_(possible_lava_channel)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Perennial_river,_stream_or_creek"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Rimless_impact_crater,_subdued_impact_crater_rim,_degraded_impact_crater_rim,_or_buried_impact_crater"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Small_shield,_dome,_or_volcanic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Very_small_shield,_dome,_or_volcanic_construct"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="skos:Concept"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="skos:altLabel"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="skos:broader"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="skos:narrower"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="skos:prefLabel"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="skos:related"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="Albedo"/>
+        <Class IRI="Geologic_Properties"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Albedo_Feature"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Amalthea"/>
+        <Class IRI="Jupiter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Amazonian"/>
+        <Class IRI="Mars_Time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Amazonian_Hesperian"/>
+        <Class IRI="Mars_Time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Amazonian_Noachian"/>
+        <Class IRI="Mars_Time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Arcus"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Area_of_Slip_Surface_of_Landslide"/>
+        <Class IRI="Geologic_Zones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Ariel"/>
+        <Class IRI="Uranus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Asteroids"/>
+        <Class IRI="Planetary_Body"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Astrum"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Basin"/>
+        <Class IRI="Geologic_Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Callisto"/>
+        <Class IRI="Jupiter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Catalog"/>
+        <Class IRI="Geospatial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Catena"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Cave"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Cave_entrance"/>
+        <Class IRI="Karst"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Cavus"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Ceres"/>
+        <Class IRI="Asteroids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Ceres"/>
+        <Class IRI="Dwarf_Planets"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Chain_craters_or_collapsed_lava_tube"/>
+        <Class IRI="Impact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Chaos"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Charon"/>
+        <Class IRI="Pluto"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Chasma"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Coastal"/>
+        <Class IRI="Geologic_Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Collapse_Structure"/>
+        <Class IRI="Karst"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Collis"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Compiled_Map"/>
+        <Class IRI="Geospatial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Corona"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Crater"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Dactyl"/>
+        <Class IRI="Asteroids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Dark-colored_ejecta"/>
+        <Class IRI="Impact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Degraded_impact_crater_rim"/>
+        <Class IRI="Impact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Deimos"/>
+        <Class IRI="Mars"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Dike_of_Variable_Thickness"/>
+        <Class IRI="Geologic_Zones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Dione"/>
+        <Class IRI="Saturn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Document"/>
+        <Class IRI="Planetary_Geoscience_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Dorsum"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Dune_crest"/>
+        <Class IRI="Eolian"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Dwarf_Planets"/>
+        <Class IRI="Planetary_Body"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Early_Amazonian"/>
+        <Class IRI="Amazonian"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Early_Hesperian"/>
+        <Class IRI="Hesperian"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Early_Noachian"/>
+        <Class IRI="Noachian"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Earth"/>
+        <Class IRI="Planetary_Body"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Edge_or_dry_lakebed_within_closed_depression_of_eolian_origin_in_bedrock"/>
+        <Class IRI="Eolian"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Enceladus"/>
+        <Class IRI="Saturn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Eolian"/>
+        <Class IRI="Geologic_Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Epimetheus"/>
+        <Class IRI="Saturn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Eros"/>
+        <Class IRI="Asteroids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Eruptive_Center"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Europa"/>
+        <Class IRI="Jupiter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Extrusive"/>
+        <Class IRI="Igneous"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Facula"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Farrum"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Fault_-_Breccia_Zone_or_Zone_of_Broken_Rock_Around_Fault"/>
+        <Class IRI="Geologic_Zones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Fault_-_Breccia_Zone_or_Zone_of_Broken_Rock_Within_Fault"/>
+        <Class IRI="Geologic_Zones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Flexus"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Fluctus"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Flumen"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Fluvial"/>
+        <Class IRI="Geologic_Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Fluvial_terrace_scarp"/>
+        <Class IRI="Fluvial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Fossa"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Fretum"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="GIS"/>
+        <Class IRI="Geospatial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Ganymede"/>
+        <Class IRI="Jupiter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Gaspra"/>
+        <Class IRI="Asteroids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Geodetic_Control_Network"/>
+        <Class IRI="Geospatial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Geologic_Process"/>
+        <Class IRI="Planetary_Geology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Geologic_Properties"/>
+        <Class IRI="Planetary_Geology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Geologic_Spatial_Accuracy"/>
+        <Class IRI="Planetary_Geology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Geologic_Zones"/>
+        <Class IRI="Planetary_Geology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Geomorphology"/>
+        <Class IRI="Planetary_Geology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Geospatial"/>
+        <Class IRI="Planetary_Geoscience_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Glacial"/>
+        <Class IRI="Geologic_Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Glacial_limit_or_terminus"/>
+        <Class IRI="Glacial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Hesperian"/>
+        <Class IRI="Mars_Time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Hesperian_Noachian"/>
+        <Class IRI="Mars_Time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Hyperion"/>
+        <Class IRI="Saturn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Iapetus"/>
+        <Class IRI="Saturn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Ida"/>
+        <Class IRI="Asteroids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Igneous"/>
+        <Class IRI="Geologic_Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Image"/>
+        <Class IRI="Planetary_Geoscience_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Image_Mosaic"/>
+        <Class IRI="Geospatial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Impact"/>
+        <Class IRI="Geologic_Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Indefinite_or_unsurveyed_shoreline"/>
+        <Class IRI="Coastal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Insula"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Intrusive"/>
+        <Class IRI="Igneous"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Io"/>
+        <Class IRI="Jupiter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Itokawa"/>
+        <Class IRI="Asteroids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Janus"/>
+        <Class IRI="Saturn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Jupiter"/>
+        <Class IRI="Planetary_Body"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Jupiter_Rings"/>
+        <Class IRI="Jupiter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Karst"/>
+        <Class IRI="Geologic_Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Labes"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Labyrinthus"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Lacuna"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Lacus"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Landing_Site"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Landslide_type"/>
+        <Class IRI="Mass_Movement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Large_Ringed_Feature"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Late_Amazonian"/>
+        <Class IRI="Amazonian"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Late_Hesperian"/>
+        <Class IRI="Hesperian"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Late_Noachian"/>
+        <Class IRI="Noachian"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Linea"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Lingula"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Lutetia"/>
+        <Class IRI="Asteroids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Macula"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Mare"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Mars"/>
+        <Class IRI="Planetary_Body"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Mars_Time"/>
+        <Class IRI="Planetary_Geologic_Time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Mass_Movement"/>
+        <Class IRI="Geologic_Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Mathilde"/>
+        <Class IRI="Asteroids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Mensa"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Mercury"/>
+        <Class IRI="Planetary_Body"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Metamorphic"/>
+        <Class IRI="Geologic_Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Middle_Amazonian"/>
+        <Class IRI="Amazonian"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Middle_Noachian"/>
+        <Class IRI="Noachian"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Mimas"/>
+        <Class IRI="Saturn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Miranda"/>
+        <Class IRI="Uranus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Mons"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Neptune"/>
+        <Class IRI="Planetary_Body"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Neptune_Rings"/>
+        <Class IRI="Neptune"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Noachian"/>
+        <Class IRI="Mars_Time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Oberon"/>
+        <Class IRI="Uranus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Oceanus"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Orthoimagery"/>
+        <Class IRI="Geospatial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Palus"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Patera"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Periglacial"/>
+        <Class IRI="Geologic_Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Phobos"/>
+        <Class IRI="Mars"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Phoebe"/>
+        <Class IRI="Saturn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Planetary_Body"/>
+        <Class IRI="Planetary_Geoscience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Planetary_Geologic_Time"/>
+        <Class IRI="Planetary_Geoscience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Planetary_Geology"/>
+        <Class IRI="Planetary_Geoscience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Planetary_Geoscience_Data"/>
+        <Class IRI="Planetary_Geoscience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Planetary_Place_Name"/>
+        <Class IRI="Planetary_Geoscience"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Planitia"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Planum"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Plume"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Pluto"/>
+        <Class IRI="Dwarf_Planets"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Present"/>
+        <Class IRI="Mars_Time"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Promontorium"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Proteus"/>
+        <Class IRI="Neptune"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Puck"/>
+        <Class IRI="Uranus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Quadrangle"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Raised_rim_of_larger_impact_crater"/>
+        <Class IRI="Impact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Raised_rim_of_smaller_impact_crater"/>
+        <Class IRI="Impact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Regio"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Reticulum"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Retreatal_position_of_stagnant_ice_margin"/>
+        <Class IRI="Glacial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Rhea"/>
+        <Class IRI="Saturn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Rima"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Rupes"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Ryugu"/>
+        <Class IRI="Asteroids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Satellite_Feature"/>
+        <Class IRI="Crater"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Saturn"/>
+        <Class IRI="Planetary_Body"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Saturn_Rings"/>
+        <Class IRI="Saturn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Saxum"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Scopulus"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Sedimentary"/>
+        <Class IRI="Geologic_Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Serpens"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Shoal"/>
+        <Class IRI="Coastal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Sinus"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Steins"/>
+        <Class IRI="Asteroids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Structure"/>
+        <Class IRI="Mass_Movement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Sulcus"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Tabular"/>
+        <Class IRI="Planetary_Geoscience_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Tectonic"/>
+        <Class IRI="Geologic_Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Terra"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Tessera"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Tethys"/>
+        <Class IRI="Saturn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Texture"/>
+        <Class IRI="Geologic_Properties"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="The_Moon"/>
+        <Class IRI="Earth"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Thebe"/>
+        <Class IRI="Jupiter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Tholus"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Titan"/>
+        <Class IRI="Saturn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Titania"/>
+        <Class IRI="Uranus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Topographic"/>
+        <Class IRI="Geologic_Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Topography"/>
+        <Class IRI="Geospatial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Triton"/>
+        <Class IRI="Neptune"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Umbriel"/>
+        <Class IRI="Uranus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Unda"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Uninterpreted"/>
+        <Class IRI="Geologic_Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Uranus"/>
+        <Class IRI="Planetary_Body"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Uranus_Rings"/>
+        <Class IRI="Uranus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Vallis"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Vastitas"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Venus"/>
+        <Class IRI="Planetary_Body"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Vesta"/>
+        <Class IRI="Asteroids"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Virga"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Zone_of_Sheared_Rock_Within_Fault"/>
+        <Class IRI="Geologic_Zones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Contact_-_ID_Certain,_Location_Accurate"/>
+        <Class IRI="Geologic_Spatial_Accuracy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Contact_-_ID_Certain,_Location_Approximate"/>
+        <Class IRI="Geologic_Spatial_Accuracy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Contact_-_ID_Certain,_Location_Concealed"/>
+        <Class IRI="Geologic_Spatial_Accuracy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Contact_-_ID_Certain,_Location_Inferred"/>
+        <Class IRI="Geologic_Spatial_Accuracy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Contact_-_ID_Queried,_Location_Accurate"/>
+        <Class IRI="Geologic_Spatial_Accuracy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Contact_-_ID_Queried,_Location_Approximate"/>
+        <Class IRI="Geologic_Spatial_Accuracy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Contact_-_ID_Queried,_Location_Concealed"/>
+        <Class IRI="Geologic_Spatial_Accuracy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Contact_-_ID_Queried,_Location_Inferred"/>
+        <Class IRI="Geologic_Spatial_Accuracy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Debris_-_Slide_Slope_(Multiple)"/>
+        <Class IRI="Geologic_Zones"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Large,_steep-sided_shield,_dome,_or_volcanic_construct"/>
+        <Class IRI="Extrusive"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Large_shield,_dome,_or_volcanic_construct"/>
+        <Class IRI="Extrusive"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Narrow_channel_(possible_lava_channel)"/>
+        <Class IRI="Extrusive"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Perennial_river,_stream_or_creek"/>
+        <Class IRI="Basin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Rimless_impact_crater,_subdued_impact_crater_rim,_degraded_impact_crater_rim,_or_buried_impact_crater"/>
+        <Class IRI="Impact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Small_shield,_dome,_or_volcanic"/>
+        <Class IRI="Extrusive"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Very_small_shield,_dome,_or_volcanic_construct"/>
+        <Class IRI="Extrusive"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="Albedo"/>
+        <Class IRI="Texture"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Albedo_Feature"/>
+        <Class IRI="Arcus"/>
+        <Class IRI="Astrum"/>
+        <Class IRI="Catena"/>
+        <Class IRI="Cave"/>
+        <Class IRI="Cavus"/>
+        <Class IRI="Chaos"/>
+        <Class IRI="Chasma"/>
+        <Class IRI="Collis"/>
+        <Class IRI="Corona"/>
+        <Class IRI="Crater"/>
+        <Class IRI="Dorsum"/>
+        <Class IRI="Eruptive_Center"/>
+        <Class IRI="Facula"/>
+        <Class IRI="Farrum"/>
+        <Class IRI="Flexus"/>
+        <Class IRI="Fluctus"/>
+        <Class IRI="Flumen"/>
+        <Class IRI="Fossa"/>
+        <Class IRI="Fretum"/>
+        <Class IRI="Insula"/>
+        <Class IRI="Labes"/>
+        <Class IRI="Labyrinthus"/>
+        <Class IRI="Lacuna"/>
+        <Class IRI="Lacus"/>
+        <Class IRI="Landing_Site"/>
+        <Class IRI="Large_Ringed_Feature"/>
+        <Class IRI="Linea"/>
+        <Class IRI="Lingula"/>
+        <Class IRI="Macula"/>
+        <Class IRI="Mare"/>
+        <Class IRI="Mensa"/>
+        <Class IRI="Mons"/>
+        <Class IRI="Oceanus"/>
+        <Class IRI="Palus"/>
+        <Class IRI="Patera"/>
+        <Class IRI="Planitia"/>
+        <Class IRI="Planum"/>
+        <Class IRI="Plume"/>
+        <Class IRI="Promontorium"/>
+        <Class IRI="Quadrangle"/>
+        <Class IRI="Regio"/>
+        <Class IRI="Reticulum"/>
+        <Class IRI="Rima"/>
+        <Class IRI="Rupes"/>
+        <Class IRI="Saxum"/>
+        <Class IRI="Scopulus"/>
+        <Class IRI="Serpens"/>
+        <Class IRI="Sinus"/>
+        <Class IRI="Sulcus"/>
+        <Class IRI="Terra"/>
+        <Class IRI="Tessera"/>
+        <Class IRI="Tholus"/>
+        <Class IRI="Unda"/>
+        <Class IRI="Vallis"/>
+        <Class IRI="Vastitas"/>
+        <Class IRI="Virga"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Amalthea"/>
+        <Class IRI="Callisto"/>
+        <Class IRI="Europa"/>
+        <Class IRI="Ganymede"/>
+        <Class IRI="Io"/>
+        <Class IRI="Jupiter_Rings"/>
+        <Class IRI="Thebe"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Amazonian"/>
+        <Class IRI="Amazonian_Hesperian"/>
+        <Class IRI="Amazonian_Noachian"/>
+        <Class IRI="Hesperian"/>
+        <Class IRI="Hesperian_Noachian"/>
+        <Class IRI="Noachian"/>
+        <Class IRI="Present"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Area_of_Slip_Surface_of_Landslide"/>
+        <Class IRI="Dike_of_Variable_Thickness"/>
+        <Class IRI="Fault_-_Breccia_Zone_or_Zone_of_Broken_Rock_Around_Fault"/>
+        <Class IRI="Fault_-_Breccia_Zone_or_Zone_of_Broken_Rock_Within_Fault"/>
+        <Class IRI="Zone_of_Sheared_Rock_Within_Fault"/>
+        <Class IRI="Debris_-_Slide_Slope_(Multiple)"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Ariel"/>
+        <Class IRI="Miranda"/>
+        <Class IRI="Oberon"/>
+        <Class IRI="Puck"/>
+        <Class IRI="Titania"/>
+        <Class IRI="Umbriel"/>
+        <Class IRI="Uranus_Rings"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Asteroids"/>
+        <Class IRI="Dwarf_Planets"/>
+        <Class IRI="Earth"/>
+        <Class IRI="Jupiter"/>
+        <Class IRI="Mars"/>
+        <Class IRI="Mercury"/>
+        <Class IRI="Neptune"/>
+        <Class IRI="Saturn"/>
+        <Class IRI="Uranus"/>
+        <Class IRI="Venus"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Basin"/>
+        <Class IRI="Coastal"/>
+        <Class IRI="Eolian"/>
+        <Class IRI="Fluvial"/>
+        <Class IRI="Glacial"/>
+        <Class IRI="Igneous"/>
+        <Class IRI="Impact"/>
+        <Class IRI="Karst"/>
+        <Class IRI="Mass_Movement"/>
+        <Class IRI="Metamorphic"/>
+        <Class IRI="Periglacial"/>
+        <Class IRI="Sedimentary"/>
+        <Class IRI="Tectonic"/>
+        <Class IRI="Topographic"/>
+        <Class IRI="Uninterpreted"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Catalog"/>
+        <Class IRI="Compiled_Map"/>
+        <Class IRI="GIS"/>
+        <Class IRI="Geodetic_Control_Network"/>
+        <Class IRI="Image_Mosaic"/>
+        <Class IRI="Orthoimagery"/>
+        <Class IRI="Topography"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Cave_entrance"/>
+        <Class IRI="Collapse_Structure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Ceres"/>
+        <Class IRI="Dactyl"/>
+        <Class IRI="Eros"/>
+        <Class IRI="Gaspra"/>
+        <Class IRI="Ida"/>
+        <Class IRI="Itokawa"/>
+        <Class IRI="Lutetia"/>
+        <Class IRI="Mathilde"/>
+        <Class IRI="Ryugu"/>
+        <Class IRI="Steins"/>
+        <Class IRI="Vesta"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Ceres"/>
+        <Class IRI="Pluto"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Chain_craters_or_collapsed_lava_tube"/>
+        <Class IRI="Dark-colored_ejecta"/>
+        <Class IRI="Degraded_impact_crater_rim"/>
+        <Class IRI="Raised_rim_of_larger_impact_crater"/>
+        <Class IRI="Raised_rim_of_smaller_impact_crater"/>
+        <Class IRI="Rimless_impact_crater,_subdued_impact_crater_rim,_degraded_impact_crater_rim,_or_buried_impact_crater"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Deimos"/>
+        <Class IRI="Phobos"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Dione"/>
+        <Class IRI="Enceladus"/>
+        <Class IRI="Epimetheus"/>
+        <Class IRI="Hyperion"/>
+        <Class IRI="Iapetus"/>
+        <Class IRI="Janus"/>
+        <Class IRI="Mimas"/>
+        <Class IRI="Phoebe"/>
+        <Class IRI="Rhea"/>
+        <Class IRI="Saturn_Rings"/>
+        <Class IRI="Tethys"/>
+        <Class IRI="Titan"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Document"/>
+        <Class IRI="Geospatial"/>
+        <Class IRI="Image"/>
+        <Class IRI="Tabular"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Dune_crest"/>
+        <Class IRI="Edge_or_dry_lakebed_within_closed_depression_of_eolian_origin_in_bedrock"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Early_Amazonian"/>
+        <Class IRI="Late_Amazonian"/>
+        <Class IRI="Middle_Amazonian"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Early_Hesperian"/>
+        <Class IRI="Late_Hesperian"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Early_Noachian"/>
+        <Class IRI="Late_Noachian"/>
+        <Class IRI="Middle_Noachian"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Extrusive"/>
+        <Class IRI="Intrusive"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Geologic_Process"/>
+        <Class IRI="Geologic_Properties"/>
+        <Class IRI="Geologic_Spatial_Accuracy"/>
+        <Class IRI="Geologic_Zones"/>
+        <Class IRI="Geomorphology"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Glacial_limit_or_terminus"/>
+        <Class IRI="Retreatal_position_of_stagnant_ice_margin"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Indefinite_or_unsurveyed_shoreline"/>
+        <Class IRI="Shoal"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Landslide_type"/>
+        <Class IRI="Structure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Neptune_Rings"/>
+        <Class IRI="Proteus"/>
+        <Class IRI="Triton"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Planetary_Body"/>
+        <Class IRI="Planetary_Geologic_Time"/>
+        <Class IRI="Planetary_Geology"/>
+        <Class IRI="Planetary_Geoscience_Data"/>
+        <Class IRI="Planetary_Place_Name"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Planetary_Geoscience"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Contact_-_ID_Certain,_Location_Accurate"/>
+        <Class IRI="Contact_-_ID_Certain,_Location_Approximate"/>
+        <Class IRI="Contact_-_ID_Certain,_Location_Concealed"/>
+        <Class IRI="Contact_-_ID_Certain,_Location_Inferred"/>
+        <Class IRI="Contact_-_ID_Queried,_Location_Accurate"/>
+        <Class IRI="Contact_-_ID_Queried,_Location_Approximate"/>
+        <Class IRI="Contact_-_ID_Queried,_Location_Concealed"/>
+        <Class IRI="Contact_-_ID_Queried,_Location_Inferred"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="Large,_steep-sided_shield,_dome,_or_volcanic_construct"/>
+        <Class IRI="Large_shield,_dome,_or_volcanic_construct"/>
+        <Class IRI="Narrow_channel_(possible_lava_channel)"/>
+        <Class IRI="Small_shield,_dome,_or_volcanic"/>
+        <Class IRI="Very_small_shield,_dome,_or_volcanic_construct"/>
+    </DisjointClasses>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi -->
+
